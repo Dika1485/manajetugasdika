@@ -1,3 +1,55 @@
+## TO USE THIS
+
+git clone https://github.com/Dika1485/manajetugasdika.git
+
+cd manajetugasdika
+
+composer install
+
+<turn on server localhost, including dbms, then make .env and database>
+
+php artisan migrate
+
+php artisan migrate:fresh --seed
+
+php artisan serve
+
+<see 127.0.0.1:8000 on your browser>
+
+## DOCUMENTATION
+
+<p>Want create Task</p>
+<img src="wantcreate.png">
+
+<p>After create and See All Task</p>
+<img src="listalltask.png">
+
+<p>See Task with ID</p>
+<img src="seewithid.png">
+
+<p>Want Update Task</p>
+<img src="wantupdate.png">
+
+<p>After Update Task</p>
+<img src="afterupdate.png">
+
+<p>See Completed Task</p>
+<img src="seecompletedtask.png">
+
+<p>See Incompleted Task</p>
+<img src="seeincompletedtask.png">
+
+<p>Before Switch Status of Task</p>
+<img src="beforeswitchstatus.png">
+
+<p>After Switch Status of Task</p>
+<img src="afterswitchstatus.png">
+
+<p>After Delete Task</p>
+<img src="afterdelete.png">
+
+<br>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
