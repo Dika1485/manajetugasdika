@@ -12,7 +12,7 @@ php artisan migrate:fresh --seed
 
 php artisan serve
 
-<see http://127.0.0.1:8000 on your browser>
+<see <a href="http://127.0.0.1:8000" target="blank">http://127.0.0.1:8000</a> on your browser>
 
 ## DOCUMENTATION
 
