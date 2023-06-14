@@ -8,8 +8,6 @@ composer install
 
 <turn on server localhost, including dbms, then make .env and database>
 
-php artisan migrate
-
 php artisan migrate:fresh --seed
 
 php artisan serve
